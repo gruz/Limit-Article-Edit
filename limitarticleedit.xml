@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.5" type="plugin" group="system" method="upgrade">
+  <name>PLG_SYSTEM_LIMITARTICLEEDIT</name>
+  <author>Gruz</author>
+  <creationDate>2016-07-03</creationDate>
+  <copyright>Copyright (C) 2004-2016 Gruz All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>arygroup@gmail.com</authorEmail>
+  <authorUrl>http://gruz.org.ua/extensions/limitarticleedit-do-not-allow-editing-articles-after-they-are-published.html</authorUrl>
+  <version>1.6</version>
+  <description>PLG_SYSTEM_LIMITARTICLEEDIT_DESC</description>
+  <files>
+    
+    
+  <folder>extensions</folder><folder>language</folder><filename>README.md</filename><filename plugin="limitarticleedit">limitarticleedit.php</filename><filename>scriptary.php</filename></files>
+  
+<updateservers><servers type="extension" priority="1" name="limitarticleedit">http://gruz.org.ua/index.php?option=com_ars&amp;view=update&amp;task=stream&amp;format=xml&amp;id=5&amp;dummy=extension.xml</servers></updateservers></extension>
